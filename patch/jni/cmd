@@ -1,0 +1,9 @@
+E:\MinGw\bin\gcc.exe -Wl,--add-stdcall-alias -I "C:\Program Files\Java\jdk1.8.0_121\include" -I "C:\Program Files\Java\jdk1.8.0_121\include\win32" -shared -o ./patch/libs/patch.dll
+    ./patch/jni/bzip2/blocksort.c
+    ./patch/jni/bzip2/bzlib.c
+    ./patch/jni/bzip2/compress.c
+    ./patch/jni/bzip2/crctable.c
+    ./patch/jni/bzip2/decompress.c
+    ./patch/jni/bzip2/huffman.c
+    ./patch/jni/bzip2/randtable.c
+    ./patch/jni/bspatch.c

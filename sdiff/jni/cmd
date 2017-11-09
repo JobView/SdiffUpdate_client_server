@@ -1,0 +1,2 @@
+E:\MinGw\bin\gcc.exe -Wl,--add-stdcall-alias -I "C:\Program Files\Java\jdk1.8.0_121\include" -I "C:\Program Files\Java\jdk1.8.0_121\include\win32" -shared -o ./sdiff/libs/sdif
+f.dll ./sdiff/jni/sdiff.cpp ./sdiff/jni/bzlib.c ./sdiff/jni/compress.c ./sdiff/jni/blocksort.c ./sdiff/jni/crctable.c ./sdiff/jni/decompress.c ./sdiff/jni/huffman.c ./sdiff/jni/randtable.c
